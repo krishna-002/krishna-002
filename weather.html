@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-image: url('https://www.pnas.org/content/118/9/e2101899118/F1.large.jpg');
+        }
+     #d2{
+         width: 450px;
+         height: 370px;
+         margin-left: 500px;
+         margin-top: 150px;
+         text-align: center;
+         color: white;
+     }
+     #d3{
+         color:white;
+         border: none;
+     }
+     #d1{
+         height: 30px;
+         border: none;
+         color: white;
+     }
+    </style>
+</head>
+<body>
+   <div id="d2" style="background-image:url('https://cdn3.vectorstock.com/i/thumb-large/59/17/different-images-of-the-four-seaons-vector-2735917.jpg');">
+       <h1>check weather report</h1>
+       <input id="d3" type="text" placeholder="enter the city name" style="height: 30px;"><br><br>
+       <button id="d1" onclick="fun()">search</button>   </div> 
+</body>
+<script>
+    function fun()
+    {
+        var str=document.getElementById('d3').value;
+        if(str=="amravati")
+        {
+            window.location="https://www.accuweather.com/en/in/amravati/189309/current-weather/189309"
+        }
+        else if(str=="hyderabad")
+        {
+            window.location="https://www.accuweather.com/en/in/hyderabad/202190/weather-forecast/202190"
+        }
+        else if(str=="dispur")
+        {
+            window.location="https://www.accuweather.com/en/in/dispur/3592996/weather-forecast/3592996"
+        }
+        else if(str=="itanagar")
+        {
+            window.location="https://www.accuweather.com/en/in/itanagar/357099/weather-forecast/357099"
+        }
+        else if(str=="patna")
+        {
+            window.location="https://www.accuweather.com/en/in/patna/202349/weather-forecast/202349"
+        }
+        else if(str=="raipur")
+        {
+            window.location="https://www.accuweather.com/en/in/raipur/187458/weather-forecast/187458"
+        }
+        else if(str=="panaji")
+        {
+            window.location="https://www.accuweather.com/en/in/panaji/188095/weather-forecast/188095"
+        }
+        else if(str=="gandhinagar")
+        {
+            window.location="https://www.accuweather.com/en/in/gandhinagar/188134/weather-forecast/188134"
+        }
+        else if(str=="chandigarh")
+        {
+            window.location="https://www.accuweather.com/en/in/chandigarh/202350/weather-forecast/202350"
+        }
+        else if(str=="shimla")
+        {
+            window.location="https://www.accuweather.com/en/in/shimla/188519/weather-forecast/188519"
+        }
+        else if(str=="ranchi")
+        {
+            window.location="https://www.accuweather.com/en/in/ranchi/203541/weather-forecast/203541"
+        }
+        else if(str=="bengaluru")
+        {
+            window.location="https://www.accuweather.com/en/in/bengaluru/204108/current-weather/204108"
+        }
+        else if(str=="thiruvananthapuram")
+        {
+            window.location="https://www.accuweather.com/en/in/thiruvananthapuram/204287/weather-forecast/204287"
+        }
+        else if(str=="bhopal")
+        {
+            window.location="https://www.accuweather.com/en/in/bhopal/204408/current-weather/204408"
+        }
+        else if(str=="mumbai")
+        {
+            window.location="https://www.accuweather.com/en/in/mumbai/204842/current-weather/204842"
+        }
+        else if(str=="imphal")
+        {
+            window.location="https://www.accuweather.com/en/in/imphal/189551/weather-forecast/189551"
+        }
+        else if(str=="shillong")
+        {
+            window.location="https://www.accuweather.com/en/in/shillong/189555/current-weather/189555"
+        }
+        else if(str=="aizawl")
+        {
+            window.location="https://www.accuweather.com/en/in/aizawl/189561/weather-forecast/189561"
+        }
+        else if(str=="kohima")
+        {
+            window.location="https://www.accuweather.com/en/in/kohima/189564/weather-forecast/189564"
+        }
+        else if(str=="bhubaneswar")
+        {
+            window.location="https://www.accuweather.com/en/in/bhubaneswar/189781/current-weather/189781"
+        }
+        else if(str=="jaipur")
+        {
+            window.location="https://www.accuweather.com/en/in/jaipur/205617/current-weather/205617"
+        }
+        else if(str=="gangtok")
+        {
+            window.location="https://www.accuweather.com/en/in/gangtok/190542/current-weather/190542"
+        }
+        else if(str=="chennai")
+        {
+            window.location="https://www.accuweather.com/en/in/chennai/206671/current-weather/206671"
+        }
+        else if(str=="agartala")
+        {
+            window.location="https://www.accuweather.com/en/in/agartala/190964/current-weather/190964"
+        }
+        else if(str=="lucknow")
+        {
+            window.location="https://www.accuweather.com/en/in/lucknow/206678/current-weather/206678"
+        }
+        else if(str=="kolkata")
+        {
+            window.location="https://www.accuweather.com/en/in/kolkata/206690/current-weather/206690"
+        }
+        else if(str=="dehradun")
+        {
+            window.location="https://www.accuweather.com/en/in/dehradun/191339/current-weather/191339"
+        }
+        else
+        {
+            alert("check the spelling mistakes enter valid city name in india and enter city name in small letters");
+        }
+    }
+</script>
+</html>
